@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+<body>
+    <table>
+        <colgroup>
+            <col span="3" style="background-color: rebeccapurple;">
+            <col style="background-color: rosybrown;">
+            <col style="background-color: seagreen;">
+        </colgroup>
+        <caption>Mounthly savings</caption>
+        <thead>
+            <tr>
+                <th>
+                    Year
+                </th>
+                <th>
+                    Month
+                </th>
+                <th>
+                    Savings
+                </th>
+                <th>
+                    Expences
+                </th>
+                <th>
+                    Total
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="12">2021</td>
+                <td>Jan</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Feb</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>March</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td colspan="3">Summary</td>
+                <td>300</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
